@@ -37,7 +37,4 @@ animation-iteration-count: infinite;
 }
 </style>
 
-<body>
-
-  <h1><span></span><h1>
-</body>
+<body><h1><span></span><h1></body>
