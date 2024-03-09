@@ -1,5 +1,14 @@
+
  
 <style>
+ h1 {
+  dislay: none;
+ }
+ #catphotoapp {
+  display: unset;
+  text-decoration: none;
+ }
+ 
 span::after {
   content: "Hello World";
 }
@@ -37,4 +46,4 @@ animation-iteration-count: infinite;
 }
 </style>
 
-<h1><span></span><h1>
+<h1 id="catphotoapp"><span></span><h1>
