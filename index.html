@@ -1,6 +1,6 @@
 
 <style>
- h1 {
+ h2 {
   display: none;
  }
  
@@ -48,9 +48,7 @@ span::after {
  
 </style>
 
-<h1 id="catphotoapp"><span></span><h1>
-
-<p>Welcome, <span id="username">visitor</span>!</p>
+<h1>Welcome, <i id="username">visitor</i>!</h1>
 <script>
   // Get username from query string, e.g. ?username=Supravisor
   const params = new URLSearchParams(window.location.search);
@@ -59,3 +57,5 @@ span::after {
     document.getElementById('username').textContent = username;
   }
 </script>
+
+<h2 id="catphotoapp"><span></span><h2>
