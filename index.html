@@ -49,3 +49,15 @@ span::after {
 </style>
 
 <h1 id="catphotoapp"><span></span><h1>
+
+
+ <!-- Example: index.html -->
+<script>
+  // Get username from query string, e.g. ?username=Supravisor
+  const params = new URLSearchParams(window.location.search);
+  const username = params.get('username');
+  if (username) {
+    document.getElementById('username').textContent = username;
+  }
+</script>
+<p>Welcome, <span id="username">visitor</span>!</p>
