@@ -53,9 +53,11 @@ span::after {
   // Get username from query string, e.g. ?username=Supravisor
   const params = new URLSearchParams(window.location.search);
   const username = params.get('username');
+ document.getElementById('username').textContent = username;
+ /*
   if (username) {
     document.getElementById('username').textContent = username;
-  }
+  }*/
 </script>
 
 <h2 id="catphotoapp"><span></span><h2>
